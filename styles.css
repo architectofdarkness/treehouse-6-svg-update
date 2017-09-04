@@ -110,9 +110,20 @@ footer {
   }
 }
 
+nav a:hover svg,
+nav a:hover {
+  transition: transform .1s,
+              color;
+}
 
+nav a:hover svg {
+  transform-origin: 50% 50%;
+  transform: scale(4) translate3d(9px, 0, 0);
+}
 
-
+nav a:hover {
+  color: white;
+}
 
 
 
