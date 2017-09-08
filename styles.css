@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url('images/background.svg') #edeff0;
+  background: url('svgs/background.svg') #edeff0;
 }
 
 #container {
@@ -85,6 +85,9 @@ footer {
 
 /*HELLO THERE*/
 
+.name {
+  display: none;
+}
 
 .logo {
   width: 140px;
@@ -101,12 +104,9 @@ footer {
     display: none;
   }
   
-  .main-heading::before {
+  .name {
     display: block;
-    content: 'PAW PRINT KENNELS';
-    height: 30px;
     color: #EAAA7F;
-    font-size: 0.75em;
   }
 }
 
@@ -124,7 +124,5 @@ nav a:hover svg {
 nav a:hover {
   color: white;
 }
-
-
 
 
